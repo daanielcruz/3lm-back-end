@@ -6,12 +6,13 @@
   "scripts": {
     "build": "tsc",
     "dev:server": "ts-node-dev -r dotenv/config --inspect --transpile-only --ignore-watch node_modules src/index.ts",
-    "start": "node -r dotenv/config dist/index.js"
+    "start": "node dist/index.js"
   },
   "dependencies": {
+    "@types/dotenv": "^8.2.0",
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
-    "dotenv-safe": "^8.2.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.2",

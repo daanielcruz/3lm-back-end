@@ -1,7 +1,5 @@
 import server from './server';
-import dotenv from 'dotenv';
-dotenv.config();
 
-server.listen(3333 || process.env.PORT, () => {
-  console.log('Its running!');
+server.listen(process.env.PORT || 3333, () => {
+  console.log(`Its running at ${process.env.PORT}!`);
 });

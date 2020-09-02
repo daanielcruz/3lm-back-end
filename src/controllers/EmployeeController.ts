@@ -34,7 +34,8 @@ class EmployeeController {
 
   async update(req: Request, res: Response) {
     try {
-      const { id, imageUrl, name, last_name, job_role, salary, age } = req.body;
+      const { id } = req.params;
+      const { imageUrl, name, last_name, job_role, salary, age } = req.body;
 
       if (
         !id ||

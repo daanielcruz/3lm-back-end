@@ -18,7 +18,7 @@ routes.get('/category/:id', AuthMiddleware, CategoryController.show);
 routes.delete('/category/:id', AuthMiddleware, CategoryController.destroy);
 
 routes.post('/employee', AuthMiddleware, EmployeeController.store);
-routes.put('/employee', AuthMiddleware, EmployeeController.update);
+routes.put('/employee/:id', AuthMiddleware, EmployeeController.update);
 routes.get('/employee', AuthMiddleware, EmployeeController.index);
 routes.get('/employee/:id', AuthMiddleware, EmployeeController.show);
 routes.delete('/employee/:id', AuthMiddleware, EmployeeController.destroy);
