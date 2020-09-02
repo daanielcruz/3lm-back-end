@@ -1,7 +1,7 @@
 # :computer: Desafio 3lm (Back-end)!
 Este repo faz parte do processo seletivo da 3lm.
 
-## :rocket: Alguma tecnologias utilizadas:
+## :rocket: Algumas tecnologias utilizadas:
 
 
 - TypeScript
