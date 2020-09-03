@@ -15,6 +15,14 @@ Cique e veja a source do Front-end: https://github.com/daanielcruz/3lm-front-end
 
 ## :question: Como executar:
 
+Para criar uma conta de admin (login area) deve-se enviar uma req POST para o endpoint /admin com email e password, ex:
+```bash
+{
+	"email": "test@test.com",
+	"password": "123"
+}
+```
+
 Configure as variavéis de ambiente MONGODB (uri da database) e SECRET (hash para o jwt), conforme o .env.sample!
 
 Documentação in progress...
