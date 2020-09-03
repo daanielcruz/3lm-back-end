@@ -1,6 +1,9 @@
 # :computer: Desafio 3lm (Back-end)!
 Este repo faz parte do processo seletivo da 3lm.
 
+Deploy front-end: https://front-end3lm.herokuapp.com/
+Deploy back-end: https://back-end3lm.herokuapp.com/
+
 ## :rocket: Algumas tecnologias utilizadas:
 
 
